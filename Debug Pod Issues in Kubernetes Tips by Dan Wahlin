@@ -1,0 +1,17 @@
+kubectl logs [pod-name]
+
+kubectl logs [pod-name] -c [container-name]
+
+kubectl logs [pod-name] --all-containers=true
+
+kubectl logs -p [pod-name]
+
+kubectl logs -f [pod-name]
+
+kubectl describe pod [pod-name]
+
+kubectl get pods [pod-name] -o yaml
+
+kubectl get deployment [deployment-name] -o yaml
+
+kubectl exec [pod-name] -it sh
